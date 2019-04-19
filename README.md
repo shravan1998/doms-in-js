@@ -1,2 +1,2 @@
 # doms-in-js
-These are the set of slides for the JavaScript workshop
+These are the example programs for the JavaScript workshop conducted by SOSC

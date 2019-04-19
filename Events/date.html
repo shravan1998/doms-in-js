@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body onload="checkCookies()">
+    <p>Click the button to display the date</p>
+    <button onclick="displayDate()">The time is?</button>
+    <p id="demo"></p>
+</body>
+<script>
+    function displayDate(){
+        document.getElementById("demo").innerHTML = Date();
+        //Assigning Events to HTML DOM
+    }
+    //To display if cookies are enabled or not
+    function checkCookies(){
+        var text = "";
+        if(navigator.cookieEnabled == true)
+        {
+            text="Cookie Enabled";
+        }else{
+            text="Cookie not enabled";
+        }
+        document.getElementById("demo").innerHTML=text;
+    }
+</script>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>JavaScript addEventListener()</h2>
+        <button id="myBtn">Click Here</button>
+    </body>
+    <script>
+    document.getElementById("myBtn").addEventListener("click",myFunction);
+    document.getElementById("myBtn").addEventListener("click",mySecondFunc);
+    function myFunction(){
+        alert("I'm Batman");
+    }
+    function mySecondFunc(){
+        alert("I'm the man of steel");
+    }
+    </script>
+</html>
